@@ -7,15 +7,15 @@
     <script type="text/javascript" language="javascript" src="JS/Login.js"></script>
 </head>
 <body>
-    <div id="nav">
+    <div id="loginBlock">
         <div class="menu">
             <ul>
-                <li id="one1" onclick="setTable('one1',1)">账户登录</li>
-                <li id="one2" onclick="setTable('one2',2)">二维码登录</li>
+                <li id="oTab1" onclick="changeTable('2')">账户登录</li>
+                <li id="oTab2" onclick="changeTable('1')">二维码登录</li>
             </ul>
         </div>
-        <div class="menudiv">
-            <div id="con_one_1">
+        <div id="con_1" class="menudiv">
+            <div>
                 <form>
                     <input type="text" id="iName" name="username" placeholder="请输入会员号">
                     <input type="password" id="iPword" name="password" placeholder="请输入密码">
@@ -24,8 +24,11 @@
                 </form>
             </div>
         </div>
-        <div>
-                <p>显示二维码的地方</p>
+        <div id="con_2" class="menudivNormal" style="display: none">
+            <h3>手机扫描 安全防盗</h3>
+             <div>
+                <img src="jk.png" width="200" height="200">
+            </div>
         </div>
     </div>
 </body>
