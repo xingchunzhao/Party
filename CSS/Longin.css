@@ -1,0 +1,94 @@
+.p1{color: red}
+
+body{background: gainsboro}
+.menu{height:50px;border-left:#cccccc solid 1px; width:300px;}
+.menu li{position:relative;top:10px;left:-15px;float:left;width:125px;text-align:center;line-height:50px;height:50px;cursor:pointer;border-right:#cccccc solid 1px;color:#666;font-size:14px;overflow:hidden;background:#E0E2EB;}
+
+.menudiv input[type="text"]{
+    position: relative;
+    top: 40px;
+    left: 30px;
+    width:240px;
+    height:30px;
+    padding: 4px 2px;
+    float: left;
+    font: bold 12px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #fff;
+    border-radius: 3px;
+}
+ .menudiv span {
+        color:blue;
+        margin:2px;
+        height:20px;
+        line-height:20px;
+}
+
+.menudiv input[type="password"]{
+    position: relative;
+    top: 60px;
+    left: 30px;
+    width:240px;
+    height:30px;
+    padding: 4px 2px;
+    float: left;
+    font: bold 12px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #fff;
+    border-radius: 3px;
+}
+ .menudiv span {
+        color:blue;
+        margin:2px;
+        height:20px;
+        line-height:20px;
+}
+
+.lnkBtn
+{
+    position: relative;
+    top: 80px;
+    left: 45px;
+     width: 100px; margin-left: auto; margin-right: auto;
+     height:35px;
+     line-height:26px;
+     clear:left;
+     background-color:white;
+}
+.lnkBtn a{
+    margin-left:20px;
+    font-size:14px;
+}
+.lnkBtn a:hover{
+   color:red;
+}
+ .lnkBtn a:visited {
+    color: #9900FF
+}
+
+#nav{
+    position: relative;
+    left: 950px;
+    top: 200px;
+    background: burlywood;
+    width: 300px;
+    height: 350px;
+}
+
+
+#nav1{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    background: lemonchiffon;
+    width: 150px;
+    height: 30px;
+}
+
+#myForm{
+    position: relative;
+    left: 80px;
+    top: 80px;
+    width: 200px;
+    height: 200px;
+}
