@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+
+#RegisterDiv{
+    position: relative;
+    left: 500px;
+    top: 20px;
+    background: burlywood;
+    width: 500px;
+    height: 650px;
+}
+
+.menudiv input[type="text"]{
+    position: relative;
+    top: 20px;
+    left: 50px;
+    width:240px;
+    height:30px;
+    padding: 4px 2px;
+    float: left;
+    font: bold 12px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #fff;
+    border-radius: 3px;
+}
+ .menudiv span {
+        color:blue;
+        margin:2px;
+        height:20px;
+        line-height:20px;
+}
+
+ .menudiv input[type="password"]{
+    position: relative;
+    top: 60px;
+    left:30px;
+    width:240px;
+    height:30px;
+    padding: 4px 2px;
+    float: left;
+    font: bold 12px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #fff;
+    border-radius: 3px;
+}
